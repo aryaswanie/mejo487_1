@@ -715,6 +715,10 @@ section {
 
 @media (max-device-width: 500px) {
 
+  .fp_credit {
+    font-size: 2rem;
+  }
+
 
     .KS {
         font-size: 10rem;
