@@ -1,0 +1,887 @@
+.section {
+  text-align:center;
+  font-size: 3em;
+  height: 100vh;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+#myVideo2 {
+   position: relative;
+   right: 0;
+   bottom: 0;
+   overflow: hidden;
+   width: 100vw;
+   height: auto;
+   z-index: 5;
+   bottom: 0;
+   margin-bottom: -20px;
+}
+
+#myVideo3 {
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin-bottom: -15px;
+   overflow: hidden;
+   width: 105vw;
+   height:auto;
+   z-index: 5;
+   bottom: 0;
+}
+
+#perfectBlue {
+  position: relative;
+}
+
+#SatoshiKon {
+  height: 100%;
+}
+
+.background_color {
+  position: fixed;
+  background-color: #0A0A0A;
+  opacity: 0.9;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 20;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+
+.slide_button {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 250px;
+  position: fixed;
+  text-align: center;
+  width: 25%;
+  height: 200px;
+  background-color:rgba(255, 255, 255, 0);
+  float:right;
+  right:0;
+  z-index: 50;
+  transition: 0.5s;
+  line-height: 1;
+  border: solid 1px rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.slide_button:hover {
+  background-color: #5898FF;
+  cursor:pointer;
+  border: solid 1px rgba(255, 255, 255, 0);
+}
+
+.MA:hover {
+  background-color: #FF973E;
+  cursor:pointer;
+  border: solid 1px rgba(255, 255, 255, 0);
+
+}
+
+.TG:hover {
+  background-color: #74B742;
+  cursor:pointer;
+  border: solid 1px rgba(255, 255, 255, 0);
+}
+
+
+
+.P:hover {
+  background-color: #EA4646;
+  cursor:pointer;
+  border: solid 1px rgba(255, 255, 255, 0);
+}
+
+.slide_info {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color:#5898FF;
+  float:right;
+  display:none;
+  z-index: 40;
+  opacity: 0.9;
+}
+
+
+
+.img1 {
+  width: 80%;
+  margin-bottom: 50px;
+  display: flex;
+  opacity: 0;
+  position: fixed;
+  height: auto;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.img1:hover {
+  border: 1px solid #0A0A0A;
+  opacity: 0;
+}
+
+
+
+
+
+.scroll_down_icon {
+  bottom: 0;
+  position: absolute;
+  font-size: 2.5rem;
+  z-index: 100;
+  padding-bottom: 50px;
+  color: white;
+
+}
+
+.p1 {
+  font-size: 1.5rem;
+  max-width: 70%;
+  display: none;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to top right, darken(dodgerblue, 10%) 0%, dodgerblue 100%);
+}
+
+#quiz1 {
+    width: 700px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 3px;
+}
+
+.quiz_container {
+  font-size: 1.5rem;
+}
+
+.center_img {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.text_info {
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  margin-left: 10%;
+  line-height: 1.5;
+  padding: 5px 15px 5px 15px;
+  transition: 0.2s;
+}
+
+.t1:hover {
+  background-color:white;
+  text-decoration: underline;
+  text-decoration-color: #5898FF;
+}
+
+.t2:hover {
+  background-color:white;
+  text-decoration: underline;
+  text-decoration-color: #FF973E;
+}
+
+.t3:hover {
+  background-color:white;
+  text-decoration: underline;
+  text-decoration-color: #74B742;
+}
+
+.t4:hover {
+  background-color:white;
+  text-decoration: underline;
+  text-decoration-color: #EA4646;
+}
+
+
+.img_perfectBlue {
+  width: 65%;
+  height: auto;
+  padding-top: 50px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: white !important;
+}
+
+#fp-nav ul li a span:hover, .fp-slidesNav ul li a span:hover {
+  background-color: #EA4646 !important;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+  font-size: 1.5rem !important;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.scroll {
+  bottom: 0;
+  position: absolute;
+  z-index: 50;
+  font-size: 2.5rem;
+  padding-bottom: 80px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: white;
+
+}
+
+.scroll:hover {
+  opacity:1;
+}
+
+
+.MA_info {
+  background-color: #FF973E;
+}
+
+.TG_info {
+  background-color: #74B742;
+}
+
+.P_info {
+  background-color: #EA4646;
+}
+
+.SatoshiKon {
+  position: fixed;
+  margin: 0 auto;
+  z-index: 0;
+  left: 0;
+  opacity: 1;
+
+}
+
+.img_millenniumActress {
+  margin: 0 auto;
+  margin-left: 145px;
+  padding-top: 30px;
+  width: 60%;
+  height: auto;
+}
+
+.img_tokyoGodfathers {
+
+  margin: 0 auto;
+  margin-left: 130px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  width: 95%;
+  height: auto;
+}
+
+.img_paprika {
+
+    margin: 0 auto;
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 95%;
+    height: auto;
+
+}
+
+.credits {
+    font-family: 'Cabin Sketch', cursive;
+    padding: 10px;
+    transition: 0.7s;
+    border: solid 1px rgba(255, 255, 255, 0);
+    color: white;
+    width: 50vw;
+    margin: 0 auto;
+    opacity: 1;
+    z-index: 50;
+}
+
+a {
+  text-decoration: none;
+}
+
+.credits:hover {
+  border: solid 1px rgba(255, 255, 255, 1);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.OP2 {
+  font-family: 'Cabin Sketch', cursive;
+  padding-top: 80px;
+  transition: 0.7s;
+  border: solid 1px rgba(255, 255, 255, 0);
+  color: white;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 350px;
+  z-index: 50;
+}
+
+.KS {
+
+  font-family: "Noto Sans Japanese";
+  padding:70px;
+  margin-top: -50px;
+  font-size: 7rem;
+  z-index: 50;
+
+  text-align: center;
+  position: fixed;
+  transition: 1s;
+
+  border: solid 1px rgba(255, 255, 255, 1);
+
+  color: white;
+}
+
+.KS:hover {
+  padding: 90px;
+  background-color: #EA4646;
+  color: #0A0A0A;
+    border: solid 1px rgba(255, 255, 255, 0);
+
+}
+
+a {
+  color: inherit;
+}
+
+.credits_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.credits_title {
+  margin-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+.slide_button_KS {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 300px;
+  position: fixed;
+  text-align: center;
+  width: 25%;
+  height: 100px;
+  background-color:rgba(255, 255, 255, 0);
+  float:right;
+  right:0;
+  z-index: 50;
+  transition: 0.5s;
+  line-height: 1;
+  border: solid 1px rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.slide_button_KS:hover {
+  background-color: white;
+  color: #0A0A0A;
+  cursor:pointer;
+  border: solid 1px rgba(255, 255, 255, 0);
+}
+
+
+.KS_bio {
+  font-family: 'Cabin Sketch', cursive;
+  color: white !important;
+  font-weight: 300 !important;
+  width: 75vw;
+  font-size: 2rem;
+  text-align: left;
+
+}
+
+.KS_bio_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.BIO {
+  margin-right: 43vw;
+  font-size: 1.5rem;
+  height: 75px;
+  color: white;
+  width: 15vw;
+}
+
+.KS_info_container {
+  font-family: 'Cormorant Garamond', serif !important;
+  color: white !important;
+  font-weight: 300 !important;
+  font-size: 1.6rem;
+  text-align: left;
+  background-color: #0A0A0A;
+  opacity: 1;
+  width: 75vw;
+  display: none;
+  padding-top: 100px;
+}
+
+.KS_info {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#quiz1 {
+  background-color: #0A0A0A !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: 1.5rem !important;
+  color: white ;
+}
+
+.questionTitle {
+  font-size: 1rem !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 300;
+  padding-bottom: 0px;
+  padding-top: 6px;
+}
+
+.quiz .quizQuestions ul.questionAnswers li:hover {
+    background: #ededed;
+    color: #0A0A0A;
+}
+
+.quiz .quizQuestions ul.questionAnswers li.selectedAnswer {
+    background:#EA4646;
+    color: white;
+}
+
+.quiz .quizControls button.ctrlNext, .quiz .quizControls button.ctrlDone {
+    float: right;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.quiz .quizControls button.disabled:hover {
+    background: #E2E2E2;
+    color: #0A0A0A;
+}
+.quiz .quizControls button.disabled {
+    cursor: not-allowed;
+    background: #0A0A0A;
+}
+
+.quiz_title {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Cabin Sketch', cursive;
+  height: 50px;
+  margin-top: -30vh;
+}
+
+.button_quiz {
+  border: solid 1px white;
+  color: white;
+  font-family: 'Ubuntu', sans-serif ;
+  font-size: 1.5rem ;
+  width: 20vw;
+  margin: 0 auto;
+  display: fixed;
+  margin-top: 20vh;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: 0.5s;
+  cursor:pointer;
+
+}
+
+.button_quiz:hover {
+  border: solid 1px rgba(255, 255, 255, 0);
+  background-color: white;
+  color: #0A0A0A;
+
+}
+
+#quiz_container {
+  display: flex;
+  margin-top:-30vh;
+  display: none;
+  background-color:#0A0A0A;
+
+}
+
+.quiz_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  margin-top:0;
+  background-color:#0A0A0A;
+
+}
+
+.quiz .quizControls button {
+    display: initial;
+    margin-right: 75px;
+    margin-top: 5vh;
+}
+
+.quiz .quizQuestions ul.questionAnswers label {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quizScoreMessage {
+  font-size: 1.5rem;
+  margin-top: -2vh;
+  margin-bottom:2vh;
+}
+
+.quizScore {
+  font-size: 1rem;
+}
+.quizScoreRank {
+  margin-top: -20px;
+}
+
+section {
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+.last {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.15);
+  height: 100vh;
+}
+
+.TK {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  position:fixed;
+  color: white;
+}
+
+.JP {
+  font-size: 7rem;
+  font-family: "Noto Sans Japanese";
+}
+
+.EN {
+  font-family: 'Cabin Sketch', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.footer {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  top: 10;
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+
+.fp_credit {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  top: 10;
+  color: white;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+}
+
+@media (max-device-width: 1200px) {
+
+  .text_info {
+    font-size: 1rem;
+  }
+  .KS_info {
+    width: 100%;
+  }
+  .KS_info_container {
+  font-size: 1.5rem;
+  }
+  .credits_title {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media (max-device-width: 1200px) {
+  #myVideo2 {
+    height: 120vh;
+    width: auto;
+    margin-bottom: -20vh;
+}
+
+  .slide_button {
+  }
+
+  .text_info {
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.8em;
+  }
+
+  .slide_button_KS {
+    margin-top: 20%;
+  }
+  #quiz_container {
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: -18vh;
+  }
+  .quizScoreRank {
+    margin-top: -100px;
+  }
+}
+
+
+
+
+@media (max-device-width: 500px) {
+
+
+    .KS {
+        font-size: 10rem;
+    }
+
+    .OP2 {
+      padding-top: 300px;
+      font-size: 4rem;
+    }
+
+    #myVideo2{
+      display: none;
+    }
+
+    .slide_button {
+      display: none;
+    }
+    .slide_info{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .p1 {
+      display: flex;
+      flex-direction: column;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 80%;
+
+    }
+
+    #p2 {
+      padding-top: 150px;
+    }
+
+    .p3 {
+      padding-top: 200px;
+    }
+
+    .p4 {
+      padding-top: 100px;
+    }
+
+    .text_info{
+      font-size: 2.2rem;
+      text-align: left;
+      padding: 20px 0px 20px 0px;
+      margin: 0 auto;
+
+    }
+    .img_perfectBlue {
+      padding: 0;
+      top: 5vh;
+      position: absolute;
+      width: 75%;
+    }
+
+    .img_millenniumActress {
+      padding: 0;
+      top: 5vh;
+      position: absolute;
+      margin: 0 auto;
+      bottom: 5vh;
+      width: 75%;
+    }
+
+    .img_tokyoGodfathers {
+
+      padding: 0;
+      top: 5vh;
+      position: absolute;
+      margin: 0 auto;
+      width: 90%;
+
+
+    }
+
+    .img_paprika {
+      margin: 0 auto;
+      padding-top: 0;
+      padding-bottom: 5vh;
+    }
+
+    #myVideo3 {
+      display: none;
+    }
+
+    .credits {
+      font-size: 7rem;
+    }
+
+    .KS_bio {
+      display: none;
+    }
+
+    .slide_button_KS {
+      display:none;
+    }
+    .KS_info_container{
+      font-size: 2.5rem;
+      width: 85vw;
+      display: inherit;
+      }
+
+      .KS_info {
+        font-size: 2.5rem;
+      }
+
+    .quiz_title {
+      display: none;
+    }
+    .button_quiz{
+      display: none;
+    }
+    #quiz_container {
+      display: inherit;
+      margin-top: -50vh;
+    }
+    .quiz .quizQuestions ul.questionAnswers label {
+      font-size: 2.5rem;
+    }
+
+    .quiz .quizQuestions > li .questionCount {
+      font-size: 2rem;
+    }
+
+    .quiz .quizQuestions > li .questionTitle {
+      font-size: 3rem !important;
+      margin-bottom: 5vh;
+    }
+
+    .quiz .quizControls button {
+      font-size: 2rem !important;
+    }
+
+    .quizScore {
+      font-size: 3rem;
+    }
+
+    .quizScoreRank {
+      font-size: 2rem;
+    }
+    .questionTitle {
+      font-size: 2.5rem !important;
+      padding-top: 1vh;
+    }
+
+    .quiz .quizResults li {
+      font-size: 2rem;
+    }
+
+    .quiz .quizResults .viewResults {
+      font-size: 3rem;
+    }
+
+    .credits_container {
+      font-size: 2rem;
+    }
+
+    .credits_title {
+      font-size: 5rem;
+    }
+    #quiz1 {
+      margin-top:-10vh;
+    }
+
+}
