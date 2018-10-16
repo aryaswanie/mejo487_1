@@ -659,6 +659,8 @@ section {
   padding-bottom: 5vh;
 }
 
+
+
 @media (max-device-width: 1200px) {
 
   .text_info {
@@ -673,11 +675,7 @@ section {
   .credits_title {
     margin-bottom: 10px;
   }
-}
 
-
-
-@media (max-device-width: 1200px) {
   #myVideo2 {
     height: 120vh;
     width: auto;
