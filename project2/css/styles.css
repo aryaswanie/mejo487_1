@@ -876,11 +876,14 @@ section {
     }
 
     .credits_container {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
 
     .credits_title {
-      font-size: 5rem;
+      font-size: 3rem;    
+    margin-bottom: 100px;
+    margin-top: -200px;
+
     }
     #quiz1 {
       margin-top:-10vh;
